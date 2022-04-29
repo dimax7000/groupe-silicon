@@ -1,0 +1,182 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    width: 40%;
+}
+.logo-container img{
+    width: 100%;
+}
+.account-notification-container{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.account-container{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+aside{
+    display: inline-block;
+    position: sticky;
+    height: 15px;
+    overflow: hidden;
+}
+.sidebar-menu-container{
+    position: absolute;
+    display: inline-block;
+    background-color: #ccc;
+    width: 180px;
+}
+aside:hover{
+    overflow: visible;
+}
+section{
+    padding: 10px;
+}
+.cards-container{
+    margin-bottom: 10%;
+}
+.cards-container span{
+    display: block;
+}
+.personnes-inscrites{
+    padding: 5px;
+    background-color: brown;
+    margin-bottom: 1%;
+}
+.double-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.femmes-inscrites{
+    margin-right: 1.5%;
+}
+.femmes-inscrites,.hommes-inscrits{
+    padding: 5px;
+    width: 48%;
+    background-color: brown;
+}
+.board-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.board-title{
+    font-size: 23px;
+    font-weight: bolder;
+}
+.title{
+    font-size: 14px;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+.board-chart{
+    height: 100%;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+}
+.id-container{
+    display: none;
+}
+.box{
+    width: 100%;
+    border-left: 1px solid black;
+}
+.registration-date{
+    border-right: 1px solid black;
+}
+@media only screen and (min-width:500px) {
+    html{
+        background-color: #9b9b9b70;
+        height: 100vh;
+    }
+    .logo-container img{
+        width: 40%;
+    }
+    .account-notification-container{
+        width: 8%;
+    }
+    header .fa-user{
+        font-size: 40px;
+    }
+    .fa-solid{
+        font-size: 28px;
+    }
+    .account-container{
+        width: 50px;
+        height: 50px;
+        padding-top: 2px;
+    }
+    main{
+        margin-top: 1%;
+        display: flex;
+    }
+    aside{
+        overflow: visible;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .sidebar-menu-container{
+        width: 220px;
+        margin-right: 20px;
+        padding: 5% 3%;
+        position: static;
+        height: 56.5vh;
+    }
+    .sidebar-menu-container div{
+        font-size: 1.1rem;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .sidebar-menu-container div a{
+        text-decoration: none;
+        color: black;
+    }
+    section{
+        width: 100%;
+        padding: 0% 2%;
+    }
+    .cards-container{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        padding: 0% 3%;
+        font-size: 32px;
+        margin-bottom: 5%;
+    }
+    .personnes-inscrites{
+        width: 28%;
+        margin-right: 20px;
+        margin-bottom: 0%;
+        border-radius: 12px;
+        
+    }
+    .double-card-container{
+        width: 64%;
+    }
+    .femmes-inscrites,.hommes-inscrits{
+        width: 43.55%;
+        border-radius: 12px;
+    }
+    .board-container{
+        height: 40vh;
+    }
+    .board-chart{
+        height: 90.5%;
+    }
+    .board-chart div div{
+        height: 50px;
+        font-size: larger;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

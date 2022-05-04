@@ -6,11 +6,14 @@ body {
 a {
     text-decoration: none;
 }
-
+.long_text{
+    display: inline-block;
+    padding: 0px;
+}
 .header_container {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 1px 5px 0px #ffb300;
+    box-shadow: 0px 1px 5px 0px #00be5f31;
     border-bottom:1px solid #00be5f3f;
     background-color:#ffffff ;
     padding: 5px;
@@ -67,6 +70,7 @@ main {
 }
 
 
+
 h4 {
     text-align: center;
 }
@@ -74,14 +78,26 @@ h4 {
 h5 {
     text-align: center;
 }
+.docs_blocks{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
 .docs_blocks h4{
-    background-color: #ffb300;
+    width: 100%;
+    background-color: #00be5f;
     padding: 10px;
     color: white;
 }
-body{
-    background-image: url(../images/1-Ministere.jpg);
-    background-size: cover;
+.doc_block {
+    width: 75%;
+    /* border: 2px solid #00be5f; */
+    padding:0px;
+    max-width: 350px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 3px 0px rgba(74, 80, 74, 0.37);
+    margin-bottom: 10px;
+
 }
 .side_bar_blocks {
     display: flex;
@@ -90,7 +106,11 @@ body{
     margin-bottom: 5px;
 
 }
-
+.side_bar_blocks a{
+    display: 
+    flex;
+    align-items: center;
+}
 .side_bar_icon {
     display: inline-block;
     margin-right: 10px;
@@ -101,7 +121,47 @@ body{
 .side_bar_text {
     display: inline-block;
 }
+.doc_img{
+    width:80%;
+    margin: auto;
 
+}
+.doc_title{
+    padding-top: 1px;
+    color: #00be5f;
+    font-weight: bold;
+}
+.doc_row{
+    display: flex;
+    width: 85%;
+    margin: 10px auto;
+}
+.doc_row span{
+    display: block;
+    width: 50%;
+}
+.demande_btn{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    padding: 10px;
+    border: 1px solid #00be5f;
+    border-radius: 7px;
+    color: white;
+    background-color: #00be5f;
+    font-weight: bold;
+    margin: 10px;
+}
+button:hover{
+    padding: 10px;
+    border: 1px solid #00be5f;
+    border-radius: 7px;
+    color: white;
+    background-color: #509b75;
+    font-weight: bold;
+}
 footer {
     background-color: black;
     color: white;
@@ -111,9 +171,10 @@ footer {
     margin-top: 300px;
     max-width: 550px;
 }
+                   
 
 
-
+/* nouveau code menu burger*/
 
 #menu_burger{
     display: none;
@@ -166,38 +227,7 @@ footer {
     font-size: 20px;
 }
 
-        /* FORM PART */
 
-.form{
-    width: 80%;
-    background-color: #0000004b;
-    border: 2px solid #00be5f;
-    margin: auto;
-    color: white;
-    padding: 20px;
-    border-radius: 15px;
-}
-.form_row{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    margin-top: 10px;
-}
-
-input{
-    width: 50%;
-    height: 20px;
-}
-.check{
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.c_box{
-    margin-left: 15px;
-}
 
 /* RESPONSIVE TABLETTE */
 
@@ -220,8 +250,7 @@ input{
         border-bottom:1px solid #00be5f3f;
         background-color:#ffffff ;
     }
-    .docs_blocks h3{
-        font-size: 1.5rem;}
+    .
     .logo_block {
         display: flex;
         align-items: center;
@@ -266,10 +295,7 @@ input{
         width: 30px;
     }
     
-    .histirique_icon {
-        width: 70px;
-        margin: auto;
-    }
+    
     
     h4 {
         text-align: center;
@@ -280,33 +306,17 @@ input{
     }
     
     .doc_block {
-        border: 2px solid #00be5f;
-        border-top-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        margin: 0px;
+        
+        display: inline-flex;
+        flex-direction: column;
+        width: 45%;
+        padding: 5px;
+        box-shadow: 0px 0px 3px 0px rgba(74, 80, 74, 0.37);
+        margin: auto;
         margin-bottom: 10px;
     
     }
-    
-    .dates {
-        display: flex;
-        font-size: 12px;
-        justify-content: space-between;
-        padding: 3px;
-    }
-    
-    .date_row {
-        padding-left: 5px;
-        padding-bottom: 5px;
-        display: inline-block;
-    
-    }
-    
-    .date_row input {
-        border: 0px;
-        color: rgba(0, 0, 0, 0.644);
-    }
-    
+
     .side_bar_blocks {
         display: flex;
         align-items: center;
@@ -335,109 +345,40 @@ input{
         margin-top: 200px;
         max-width: 750px;
     }
-    .historique_block{
-        display: none;
+
+    .doc_img{
+        width:80%;
+        margin: auto;
+    
     }
-
-                    
-    
-            /* nouveau code historique block*/
-
-                    .historique_container{
-                        border-left: 3px solid #00be5f;
-                        position: relative;
-                        width: 60%;
-                        margin: auto;
-                        padding: 10px 0px 0px 10px;
-                    }
-                    .historique_container::before{
-                        content: "";
-                        top: 0px;
-                        width: 34px;
-                        left: -17px;
-                        position: absolute;
-                        border-bottom: 3px solid #00be5f;
-                    }
-                    .historique_row{
-                        margin: 20px 0px 0px 15px;
-                        padding-top: 8px;
-                        position: relative;
-                    }
-                    .historique_row::before{
-                        content: "01 Jan 2022";
-                        font-size: 10px;
-                        text-align: center;
-                        display: flex;
-                        align-items: center;
-                        position: absolute;
-                        width: 35px;
-                        top: 0px;
-                        left: -46px;
-                        height: 35px;
-                        background-color: white;
-                        border-radius: 50%;
-                        border: 2px solid #00be5f;
-
-                        
-                    }
-                    .historique_container{
-                        padding-bottom: 50px;
-                    }
-                    #historique_btn{
-                        display: none;
-                    }
-                    .historique_icon{
-                        cursor: pointer;
-                        transition: .5s;
-                        font-weight: bold;
-                        color: #00be5f;
-                        margin-right: 5px;
-                    }
-
-                    .historique_block{
-                        width: 60%;
-                        height: 550px;
-                        display: block;
-                        position: absolute;
-                        top: 0px;
-                        right: -5px;
-
-                        opacity: 0;
-                        visibility: hidden;
-                        transition: .3s;
-
-                        padding: 25px;
-                        padding-right: 0px;
-                        padding-left: 0px;
-                        background-color: #f5f5f5;
-                        box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.226);
-                            
-                    }
-
-                    #historique_btn:checked ~ .historique_block{
-                        opacity: 1;
-                        visibility: visible;
-                    }
-                    .header_historique{
-                        color: #0052be;
-                        padding: 5px;
-                        margin-right: 20px;
-                        position: absolute;
-                        right: 10px;
-                        top: 10px;
-                        font-size: 20px;
-                    }
-                    .historique_title{
-                        margin-top: 35px;
-                        background-color: #00be5f;
-                        width: 100%;
-                    }
-                    .historique_title h4{
-                        padding: 10px;
-                        color: white;
+    .doc_title{
+        color: #00be5f;
+        font-weight: bold;
+        font-size: 1.5rem;
     }
+    .doc_row{
+        display: flex;
+        width: 75%;
+        margin: 10px auto;
+    }
+    .doc_row span{
+        display: block;
+        width: 50%;
+    }
+    .demande_btn{
+        display: flex;
+        justify-content: center;
     
-    
+    }
+    button{
+        padding: 10px;
+        border: 1px solid #00be5f;
+        border-radius: 7px;
+        color: white;
+        background-color: #00be5f;
+        font-weight: bold;
+        margin: 10px;
+    }
     /* nouveau code */
     
     #menu_burger{
@@ -464,6 +405,7 @@ input{
             box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.226);
             
     }
+    
     .side_bar_desktop{
         width: 20%;
         max-width: 300px;
@@ -501,7 +443,7 @@ input{
         text-decoration: none;
     }
     .side_bar_desktop{
-        width: 30%;
+        width: 20%;
         max-width: 300px;
         display: inline-block;
         padding: 25px;
@@ -574,59 +516,7 @@ input{
         box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.226);
             
     }
-    .historique_title{
-        text-align: center;
-    }
-    .historique_title h4{
-        text-align: center;
-        color: #00be5f;
-        font-size: 1.5rem;
-        background-color: white;
-    }
-    .historique_container{
-        border-left: 2px solid #00be5f;
-        position: relative;
-        width: 60%;
-        margin: auto;
-        padding: 10px 0px 0px 10px;
-    }
-    .historique_container::before{
-        content: "";
-        top: 0px;
-        width: 33px;
-        left: -15px;
-        position: absolute;
-        border-bottom: 3px solid #00be5f;
-    }
-    .historique_row{
-        margin: 20px 0px 0px 15px;
-        padding-top: 8px;
-        position: relative;
-    }
-    .historique_row::before{
-        content: "01 Jan 2022";
-        font-size: 10px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        position: absolute;
-        width: 35px;
-        top: 0px;
-        left: -46px;
-        height: 35px;
-        background-color: white;
-        border-radius: 50%;
-        border: 2px solid #00be5f;
 
-        
-    }
-    .historique_container{
-        padding-bottom: 50px;
-    }
-    .histirique_icon {
-        width: 70px;
-        margin: auto;
-    }
     
     h4 {
         text-align: center;
@@ -636,22 +526,23 @@ input{
         text-align: center;
     }
     .docs_blocks{
-        display: inline-block;
         margin: 50px auto;
         /* border: 2px solid black; */
-        width: 50%;
+        width: 75%;
     }
     .docs_blocks h4{
         font-size: 1.5rem;
         font-weight: bold;
     }
     .doc_block {
-        width: 80%;
-        display: block;
-        border: 2px solid #00be5f;
-        border-top-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        margin: 10px auto;
+        
+        display: inline-flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 5px;
+        box-shadow: 0px 0px 3px 0px rgba(74, 80, 74, 0.37);
+        margin: 5px;
+        margin-bottom: 10px;
     
     }
     

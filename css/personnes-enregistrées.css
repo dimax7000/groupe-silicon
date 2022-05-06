@@ -53,6 +53,20 @@ main{
 aside{
     position: relative;
 }
+a{
+    display: block;
+}
+a:hover{
+    animation: lien 1s infinite;
+}
+@keyframes lien {
+    50%{
+        transform: translate(5px,5px);
+    }
+    100%{
+        transform: translate3d();
+    }
+}
 .burger-menu{
     padding: 1% 2%;
     font-size: 25px;
@@ -150,6 +164,10 @@ section{
     padding: 10px 10px 0px 10px;
     display: flex;
 }
+.board-chart a{
+    text-decoration: none;
+    color: black;
+}
 .id-container{
     display: none;
 }
@@ -209,7 +227,7 @@ section{
         font-size: 19px;
     }
     section{
-        width: 100%;
+        width: 82%;
         padding: 0.5% 1.3%;
     }
     .cards-container{

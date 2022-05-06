@@ -1,0 +1,143 @@
+*{
+ margin: 0;
+ padding: 0;
+ text-decoration: none;
+ list-style-type: none;
+ 
+
+}
+.logo img{
+ 
+ margin-bottom: 30px;
+ margin-left: 28px;
+ 
+}
+.logo img,.logoord img{
+    
+    width: 150px;
+    
+    
+   }
+.sidenav{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 1);
+    overflow: hidden;
+    padding-top: 30px;
+    transition: ease-in-out 0.3s;
+
+    
+}
+.menu{
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.logo1{
+    margin: 0px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 50px;
+    display: none;
+    cursor: pointer;
+
+
+}
+.menu1{
+    float: left;
+    display: none;
+}
+.sidenav a{
+    padding: 15px 8px 15px 32px;
+    display: block;
+}
+.sidenav a:hover{
+    color: green;
+    background-color: gold;
+
+}
+.sidenav{
+    top: 0;
+    right: 30px;
+    font-size: 20px;
+}
+.main{
+    padding: 15px;
+    margin-left: 250px;
+}
+.head{
+    padding: 0px 6px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.not-user{
+    display: flex;
+    marg
+
+    
+}
+.notification i,.user i{
+    color: green;
+    font-size:20px;
+
+}
+.notification {
+    margin-right: 10px;
+}
+.info-user{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.info-user{
+    margin-top: 100px;
+}
+.prenom,.name,.num{
+    margin-bottom: 50px;
+}
+input{
+    border: none;
+    margin-left: 150px;
+    text-align: justify;
+}
+.buton{
+    margin-top: 50px;    
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FA1;
+    color: white;
+     float: right;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+
+}
+button:hover{
+    background-color: rgba(255, 172, 17, 0.76);
+
+}
+label{
+    font-size: 20px;
+}
+input::placeholder{
+    color: black;
+    
+    @media all and (min-width:768px){
+        input{
+           
+        }
+
+    }

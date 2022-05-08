@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/demand-form.css" />
+    <title>Demande de Documents</title>
+</head>
+<body>
+    <div class="title-container">
+        <span>Demande de Documents</span>
+    </div>
+    <form>
+        <!-- information du demandeur -->
+        <section>
+            <div class="top-infos-container">
+                <div class="left-infos-container">
+                    <div class="double-container">   
+                        <label>
+                            <span>Nom</span>
+                            <input type="text" />
+                        </label>
+                        <label>
+                            <span>Prenoms</span>
+                            <input type="text" />
+                        </label>
+                    </div>
+                    <div class="double-container">   
+                        <label>
+                            <span>Sexe</span>
+                            <select name="" id="">
+                                <option value="masculin">Masculin</option>
+                                <option value="feminin">Feminin</option>
+                            </select>
+                        </label>
+                        <label>
+                            <span>Situation </span>
+                            <input type="text" />
+                        </label>
+                    </div>
+                </div>
+                <div class="right-infos-container">
+                    <div class="double-container">   
+                        <label>
+                            <span>Nationalite</span>
+                            <input type="text" />
+                        </label>
+                        <label>
+                            <span>Profession</span>
+                            <input type="text" />
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="birth-infos">
+                <div class="birth-date">
+                    <label>
+                        <span>Date de naissance</span>
+                        <input type="date">
+                    </label>
+                </div>
+                <div class="double-container">   
+                    <label>
+                        <span>Lieu de naissance</span>
+                        <input type="text" />
+                    </label>
+                    <label>
+                        <span>Pays de naissance</span>
+                        <input type="text" />
+                    </label>
+                </div>
+            </div>
+        </section>
+        <!-- fin information du demandeur -->
+        <!-- information pere du demandeur -->
+        <section>
+            <span class="title">Informations sur le Père</span>
+            <div class="parents-infos">
+                <div class="double-container">   
+                    <label>
+                        <span>Nom</span>
+                        <input type="text" />
+                    </label>
+                    <label class="hide">
+                        <span>Prenoms</span>
+                        <input type="text" />
+                    </label>
+                </div>
+                <div class="double-container">   
+                    <label>
+                        <span>Nationalite</span>
+                        <input type="text" />
+                    </label>
+                    <label>
+                        <span>Profession</span>
+                        <input type="text" />
+                    </label>
+                </div>
+            </div>
+        </section>
+        <!-- fin information pere du demandeur -->
+        <!-- information mere du demandeur -->
+        <section>
+            <span class="title">Informations sur la Mère</span>
+           <div class="parents-infos">
+                <div class="double-container">   
+                    <label>
+                        <span>Nom</span>
+                        <input type="text" />
+                    </label>
+                    <label class="hide">
+                        <span>Prenoms</span>
+                        <input type="text" />
+                    </label>
+                </div>
+                <div class="double-container">   
+                    <label>
+                        <span>Nationalite</span>
+                        <input type="text" />
+                    </label>
+                    <label>
+                        <span>Profession</span>
+                        <input type="text" />
+                    </label>
+                </div>
+           </div>
+        </section>
+        <!--fin  information mere du demandeur -->
+        <!-- pieces jointes -->
+        <div class="files-container">
+            <span>Pieces Jointes</span>
+            <input type="file" id="file-field"/>
+            <label for="file-field">
+                <div class="arrow"></div>
+            </label>
+        </div>
+        <!-- fin pieces jointes -->
+        <div class="button-container">
+            <button>
+                <a href="payement.html">VALIDER</a>
+            </button>
+        </div>
+    </form>
+</body>
+</html>

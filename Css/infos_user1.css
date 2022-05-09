@@ -1,0 +1,77 @@
+
+   .main{
+       padding: 15px;
+       margin-left: 250px;
+   }
+   .head{
+       padding: 0px 6px;
+       border-bottom: 1px solid black;
+       padding-bottom: 10px;
+       display:flex;
+       justify-content: space-between;
+       
+   }
+   .not-user{
+       display: flex;
+       marg
+   
+       
+   }
+   .notification i,.user i{
+       color: green;
+       font-size:20px;
+   
+   }
+   .notification {
+       margin-right: 10px;
+   }
+   .info-user{
+       margin-left: 300px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+      
+   }
+   .info-user{
+       margin-top: 100px;
+   }
+   .prenom,.name,.num{
+       margin-bottom: 50px;
+   }
+   input{
+       border: none;
+       margin-left: 150px;
+       text-align: justify;
+   }
+   .buton{
+       margin-top: 50px;    
+   }
+   button{
+       padding: 10px;
+       border-radius: 5px;
+       background-color: #FA1;
+       color: white;
+        float: right;
+       font-weight: 600;
+       cursor: pointer;
+       border: none;
+   
+   }
+   button:hover{
+       background-color: rgba(255, 172, 17, 0.76);
+   
+   }
+   label{
+       font-size: 20px;
+   }
+   input::placeholder{
+       color: black;
+       
+       @media all and (min-width:768px){
+           input{
+              
+           }
+   
+       }
+   

@@ -12,3 +12,19 @@
 .montserrat{
     font-family: "Montserrat";
 }
+header{
+    background-color: white;
+    color: forestgreen;
+}
+.sidebar,
+aside,
+.menus_bar,
+.side_bar_desktop,
+.historique_block_desktop{
+    background-color: #f5f6fa;
+    box-shadow: 8px 0px 10px -1px black;
+}
+button{
+    background-color: forestgreen;
+    color: white;
+}

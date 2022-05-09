@@ -1,3 +1,12 @@
+@font-face{
+    font-family: 'Poppins' ;
+    src: url("../Css/fonts/Montserrat/Poppins/Poppins-Black.ttf");
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+
 *{
 box-sizing: border-box;
 margin: 0px;
@@ -272,6 +281,7 @@ transition-delay: .3s;
     display: none;
 }
 
+}
 .content .title{
     font-size: 30px;
     font-weight: 700;
@@ -806,7 +816,7 @@ display: flex;
     
    padding: 15px 10px;
   
-}
+
 .menu ul{
     margin-left: 100px;
     
@@ -817,4 +827,4 @@ button .user{
 }
 
 }
-
+}

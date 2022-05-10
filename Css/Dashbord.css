@@ -92,6 +92,7 @@ h5 {
     margin-left: 20px;
 }
 .doc_block {
+    border: 2px #008080;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin: 0px;
@@ -165,16 +166,14 @@ footer {
                         
                     }
                     .container-left{
-                        border: 2px solid #fff;
+                        border: 2px solid #008080;
                         width:100%;
-                        background-color: #fff;
                         margin: auto;
                         height:100px;
                         border-radius:15px 0px;
                     }
                     .container-right{
-                        border: 2px solid #e85347;
-                        background-color: #e85347;
+                        border: 2px solid #008080;
                         width:100%;
                         margin: auto;
                         height:100px;
@@ -188,16 +187,14 @@ footer {
                         margin-left:25px;
                     }
                     .seconde-container-left{
-                        border: 2px solid #f4bd0e;
-                        background-color: #f4bd0e;
+                        border: 2px solid #008080;
                         width:100%;
                         margin: auto;
                         height:100px;
                         border-radius:15px 0px;
                     }
                     .seconde-container-right{
-                        border: 2px solid #1ee0ac ;
-                        background-color: #1ee0ac;
+                        border: 2px solid #008080 ;
                         width:100%;
                         margin:auto;
                         height:100px;
@@ -405,12 +402,14 @@ footer {
             height:200px;
         }
         .container-left{
+            border:2px solid #008080;
             width:100%;
             margin: auto;
             height:100px;
             border-radius:15px 0px;
         }
         .container-right{
+            border:2px solid #008080;
             width:100%;
             margin: auto;
             height:100px;
@@ -424,12 +423,14 @@ footer {
             margin-left:25px;
         }
         .seconde-container-left{
+            border:2px solid #008080;
             width:100%;
             margin: auto;
             height:100px;
             border-radius:15px 0px;
         }
         .seconde-container-right{
+            border:2px solid #008080;
             width:100%;
             margin:auto;
             height:100px;
@@ -448,6 +449,7 @@ footer {
             width:100%;
             margin: auto;
             height:500px;
+            border:2px solid #008080;
             border-radius:15px;
             text-align:center;
         }

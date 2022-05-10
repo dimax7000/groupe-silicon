@@ -22,7 +22,7 @@ aside,
 .side_bar_desktop,
 .historique_block_desktop{
     background-color: #f5f6fa;
-    box-shadow: 8px 0px 10px -1px black;
+    box-shadow: 8px 0px 10px -10px black;
 }
 button{
     background-color: forestgreen;

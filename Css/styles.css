@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Poppins' ;
-    src: url("../Css/fonts/Montserrat/Poppins/Poppins-Black.ttf");
+    src: url("../Css/fonts/Poppins/Poppins-Black.ttf");
 }
 @font-face {
     font-family: ;
@@ -567,7 +567,8 @@ footer{
     display: flex;
 }
 .global{
-    display: flex;
+    
+    display: none;
     justify-content: center;
     align-items: center;
     height: 60vh;
@@ -594,8 +595,9 @@ i{
     font-size: 30px;
     font-weight: 700;
     color: #006d6d;
-    margin-bottom: 20px;
-    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family:Poppins ;
+
    
 }
 .blog_description{
@@ -833,7 +835,7 @@ i{
     
     .info{
         position: absolute;
-        height: 370px;
+        height: 350px;
         width: 100%;
         max-width: 70%;
         margin: auto;
@@ -865,7 +867,7 @@ i{
          }
          .info{
             position: absolute;
-            height: 370px; 
+            height: 350px; 
             width: 100%;
            
             margin: auto;
@@ -886,6 +888,7 @@ i{
             height: 360px;
             width: 70%;
         }
+       
         .inner-part .img{
             height: 260px;
             width: 260px;

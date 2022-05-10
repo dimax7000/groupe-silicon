@@ -48,8 +48,16 @@ header .fa-user{
     color: #2ca95a;
     font-size: 22px;
 }
-.admin-name{
+a{
+    text-decoration: none;
     color: black;
+}
+header a,
+section a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
 }
 main{
     height: 91%;
@@ -155,6 +163,14 @@ section{
     justify-content: center;
     padding: 10px 10px 0px 10px;
     display: flex;
+}
+.board-chart div div:nth-child(2),
+.board-chart div div:nth-child(4){
+    background-color: #fff;
+}
+.board-chart div div:nth-child(3),
+.board-chart div div:nth-child(5){
+    background-color: #f5f6fa;
 }
 .id-container{
     display: none;

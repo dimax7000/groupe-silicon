@@ -85,10 +85,10 @@ aside{
 .new-requests,
 .personnes-enregistrees,
 .informations-personnelles{
-    padding: 5% 2%;
     margin-left: 40px;
     display: flex;
     align-items: center;
+    margin: 2.5% 5%;
 }
 .text{
     margin-left: 5px;
@@ -98,8 +98,14 @@ aside{
     text-transform: uppercase;
 }
 #sidebar-menu-container a{
+    display: inline-block;
     text-decoration: none;
     color: black;
+    width: 100%;
+    height: 100%;
+}
+#sidebar-menu-container a:hover{
+    background-color: #dfdfdf;
 }
 #sidebar-menu-container .fa-solid{
     font-size: 40px;
@@ -221,7 +227,6 @@ section{
     .new-requests,
     .personnes-enregistrees,
     .informations-personnelles{
-        padding: 3% 0%;
         margin-left: 20px;
     }
     #sidebar-menu-container span{

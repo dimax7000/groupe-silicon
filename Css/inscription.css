@@ -17,6 +17,7 @@
     margin-top:30px;
     font-size:25px;
     margin-bottom:40px;
+    color:#008080;
 }
 .btn button{
     margin-top:25px;
@@ -31,7 +32,7 @@
 }
 label{
     margin-top:40px; 
-    font-size:20px;
+    font-size:17px;
     text-align: center;
     color:#008080;
     
@@ -49,6 +50,7 @@ p{
 }
 body{
     margin-top:50%; 
+    background-image: ;
    
  }
     
@@ -74,7 +76,7 @@ body{
     }
     label{
         margin-top:40px; 
-        font-size:20px;
+        font-size:17px;
         text-align: center;
     }
     input{
@@ -89,7 +91,6 @@ body{
    } 
    body{
     margin-top:15%;
-   background-image:url('../images/yellowstone-national-park-1581879_1920.jpg');   
 }
 
 }

@@ -6,6 +6,7 @@
     border-radius:25px;
     height:400px;
     background-color:rgba(245, 236, 236, 0.404);
+    margin-top:50%;
     
     max-width:500px;
     box-shadow:1px 1px 5px 2px white;
@@ -17,6 +18,8 @@
     margin-top:30px;
     font-size:25px;
     margin-bottom:40px;
+    color: #008080;
+
 }
 .Email label{
     margin-top:40px; 
@@ -37,7 +40,7 @@
     border:  #008080;
     border: 2px solid  #008080;
 }  
-.btn button a{
+.btn button{
     margin-top:25px;
     height:40px;
     width:60%;
@@ -45,9 +48,7 @@
     text-align: center;
     font-size:15px;
     color:white;
-    border: 2px solid  #008080;
-    
-    
+    border: 2px solid  #008080; 
 }
 button{
     border: 1px #cccccc;
@@ -61,12 +62,17 @@ button{
     font-size:15px;
     background-color: #008080;
 }
+button a{
+    color:white;
+    text-decoration: none; 
+}
 p{
     font-size:1.2em;
 }
-  body{
-    margin-top:50%;  
- }
+body{
+    background-image:url('../images/');
+}
+ 
 
 @media only screen and (min-width:460px){
     .container-connexion-form{
@@ -76,6 +82,7 @@ p{
         justify-content:center;
         border-radius:25px;
         height:450px;
+        margin-top:10%;   
     }
     .container-child-formulaire{
         text-align: center;
@@ -113,9 +120,7 @@ p{
     p{
         font-size:1.4em;
     }
-    body{
-        margin-top:50%;
-    }
+   
 }
 
 

@@ -9,7 +9,7 @@
     max-width: 700px; 
 }
 body{
-    background-image:url('../images/yellowstone-national-park-1581879_1920.jpg'); 
+    background-image:url('../images/'); 
 }
 .container-logo{
     display: inline-flex;
@@ -46,7 +46,6 @@ body{
 .first-container{
     width:100%;
     margin:auto;
-    /* height:400px; */
     display: flex;
     justify-content: center;
     margin-top:80px;
@@ -56,11 +55,8 @@ body{
     font-size:25px;
     margin-bottom:40px;
     text-align:center;
+    color:#008080;
 }
-/* .radio-element{
-    border: 1px solid rgb(228, 23, 23);
-    margin-top:50px;
-} */
 
 select{
     height:30px;
@@ -107,7 +103,7 @@ select{
 } 
 .container-button{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 .container-number input{
     border-radius:10px 10px;
@@ -141,19 +137,99 @@ button{
     height:50px;
     border-radius:10px 10px;
     margin-left:15px;
+    color:white;
+    background-color: #008080;
+    border: 2px solid #008080;
+
 }
 @media only screen  and (min-width:460px) {
-    .responsive-first{
-        display: flex;
-        justify-content: center;
-    }
-    .first-container{
+    .parent-container{
+        border: 1px solid black;
         width:100%;
         margin:auto;
-        /* height:400px; */
-        display: flex;
-        justify-content: center;
-        margin-top:0px;
+        height:400px;
+        margin-top:25px;
+        border-radius:15px;
+        background-color:rgba(245, 236, 236, 0.404);
+        max-width: 700px; 
+        margin-top:30%;
     }
-    
+    .responsive-first{
+        display: flex;
+    }
+    .radio-element {
+    color: #008080;
+    }
+    .titre{
+        color: #008080;
+    }
+    label{
+        color: #008080;
+    }
+    .text-container{
+        color: #008080;  
+    }
+
+    .first-container{
+        width:66%;
+        margin:auto;
+        display: flex;
+        justify-content: space-between;
+        margin:0px;
+        margin-left:35px;
+    }
+    .container-right,
+    .container-left{
+        margin: 0px;
+        width: 48%;
+    }
+    select{
+        width: 80%;
+        margin: auto;
+        height: 32px;
+    }
+    .container-payement-mobile{
+        width: 33%;
+        margin: 0px;
+    }
+    .container-payement-mobile input{
+        width: 80%;
+        padding: 0px;
+    }
+    .container-payement-carte{
+        margin: 0px;
+        padding: 2%;
+        justify-content: space-between;
+    }
+    .container-payement-carte input,
+    .container-payement-carte label{
+        display: block;
+    }
+    .item{
+        width: 25%;
+        margin: 0px;
+    }
+    .container-payement-carte input,
+    .container-payement-carte select{
+        width: 80%;
+        margin: 0px;
+    }  
+    .date-container label{
+       margin-left:25px; 
+    }
+    .item-visa input,
+    .item-visa label{
+        width: unset;
+        display: inline;
+    }
+    .item-visa{
+        padding-left:20px;
+    }
+    .text-container{
+        margin-left:25px; 
+    }
+    .date-container input{
+        width:120px;
+    } 
+   
 }

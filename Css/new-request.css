@@ -75,6 +75,7 @@ aside{
     height: 94.5vh;
     position: absolute;
     top: 0px;
+    background-color: #f5f6fa;
 }
 .exit{
     text-align: right;
@@ -93,14 +94,22 @@ aside{
 }
 .text{
     margin-left: 5px;
+    height: 40px;
 }
 #sidebar-menu-container span{
     font-size: 20px;
     text-transform: uppercase;
 }
 #sidebar-menu-container a{
+    display: inline-block;
     text-decoration: none;
     color: black;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+#sidebar-menu-container a:hover{
+    background-color: #dfdfdf;
 }
 #sidebar-menu-container .fa-solid{
     font-size: 40px;
@@ -121,7 +130,7 @@ section{
 }
 .new-cni-request{
     padding: 10px 5px;
-    background-color: #2ca95a;
+    background-color: #e85347;
     margin-bottom: 1%;
     border-radius: 10px;
     height: 50px;
@@ -132,11 +141,14 @@ section{
 }
 .new-cj-request{
     margin-right: 1.5%;
+    background-color: #f4bd0e;
+}
+.new-passport-request{
+    background-color: #1ee0ac;
 }
 .new-cj-request,.new-passport-request{
     padding: 10px 5px;
     width: 48%;
-    background-color: #2ca95a;
     border-radius: 8px;
     height: 50px;
     font-size: 15px;

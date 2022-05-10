@@ -73,6 +73,7 @@ aside{
     height: 94.5vh;
     position: absolute;
     top: 0px;
+    background-color: #f5f6fa;
 }
 .exit{
     text-align: right;
@@ -119,7 +120,7 @@ section{
 }
 .personnes-inscrites{
     padding: 10px 5px;
-    background-color: #2ca95a;
+    background-color: #e85347;
     margin-bottom: 1%;
     border-radius: 10px;
     height: 50px;
@@ -130,11 +131,14 @@ section{
 }
 .femmes-inscrites{
     margin-right: 1.5%;
+    background-color: #f4bd0e;
+}
+.hommes-inscrits{
+    background-color: #1ee0ac;
 }
 .femmes-inscrites,.hommes-inscrits{
     padding: 10px 5px;
     width: 48%;
-    background-color: #2ca95a;
     border-radius: 8px;
     height: 50px;
 }

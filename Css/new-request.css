@@ -1,29 +1,36 @@
-html{
-    height: 150vh;
-}
 body{
     margin: 0px;
-    height: 100%;
 }
 header{
-    padding: 0.5% 0% 0% 0.5%;
+    padding: 0% 0.5%;
     margin-bottom: 1px;
-    box-shadow: 0px 10px rgb(70, 161, 18);
+    box-shadow: 0px 10px  #008080;
     display: flex;
     justify-content: space-between;
 }
+.header-left{
+    width: 11%;
+}
 .logo-container{
-    width: 40%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #008080;
+}
+.logo-image-container{
+    width: 50%;
 }
 .logo-container img{
     width: 100%;
 }
 .account-notification-container{
+    padding-top: 0.25%;
     width: 22%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #2ca95a;
+    color: #008080;
 }
 .account-container{
     text-align: center;
@@ -34,10 +41,10 @@ header{
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    border: 1px solid #2ca95a;
+    border: 1px solid #008080;
 }
 header .fa-user{
-    color: #2ca95a;
+    color: #008080;
     font-size: 22px;
 }
 .account-name-container{
@@ -60,7 +67,6 @@ section a{
     padding-top: 5%;
 }
 main{
-    height: 91%;
 }
 aside{
     position: relative;
@@ -101,12 +107,12 @@ aside{
 #sidebar-menu-container a{
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: #008080;
     width: 100%;
     height: 100%;
 }
 #sidebar-menu-container a:hover{
-    background-color: #dfdfdf;
+    background-color: #fff;
 }
 #sidebar-menu-container .fa-solid{
     font-size: 40px;
@@ -114,16 +120,12 @@ aside{
 #sidebar-menu-container:target{
     display: block;
 }
-#sidebar-menu-container>div>div{
-    displa
-}
 section{
     padding: 10px;
     height: 71%;
 }
 .cards-container{
     margin-bottom: 10%;
-    font-size: 20px;
 }
 .cards-container span{
     display: block;
@@ -131,7 +133,9 @@ section{
 .new-cni-request{
     padding: 10px 5px;
     background-color: #e85347;
+    border: 2px solid #008080;
     margin-bottom: 1%;
+    font-size: 20px;
     border-radius: 10px;
     height: 50px;
 }
@@ -152,9 +156,10 @@ section{
     border-radius: 8px;
     height: 50px;
     font-size: 15px;
+    border: 2px solid #008080;
 }
 .board-container{
-    border: 1px solid black;
+    border: 2px solid #008080;
     border-radius: 10px;
     text-align: center;
     height: 100%;
@@ -165,8 +170,8 @@ section{
 }
 .title{
     font-size: 14px;
-    font-weight: bolder;
-    border-bottom: 1px solid black;
+    font-weight: bold;
+    border-bottom: 2px solid #008080;
 }
 .board-chart{
     height: 93.7%;
@@ -187,10 +192,10 @@ section{
 }
 .box{
     width: 100%;
-    border-left: 1px solid black;
+    border-left: 2px solid #008080;
 }
 .state-container{
-    border-right: 1px solid black;
+    border-right: 2px solid #008080;
 }
 @media only screen and (min-width:500px) {
     .logo-image-container{
@@ -208,6 +213,7 @@ section{
         font-size: large;
     }
     header .fa-user{
+        color: #008080;
         font-size: 40px;
     }
     .admin-name-container{
@@ -216,8 +222,12 @@ section{
     }
     aside{
         position: static;
-        width: 19%;
-        height: 100%;
+        width: 29%;
+        height: 88vh;
+    }
+    .burger-menu,
+    .exit{
+        display: none;
     }
     .fa-bars,
     .fa-xmark{
@@ -230,6 +240,8 @@ section{
     #sidebar-menu-container{
         display: block;
         position: static;
+        margin-top: -1px;
+        padding-top: 20px;
         width: 100%;
         height: 100%;
     }
@@ -239,12 +251,12 @@ section{
         margin-left: 20px;
     }
     #sidebar-menu-container span{
-        font-size: 19px;
+        font-size: 18px;
     }
     section{
         width: 82%;
-        padding: 0.5% 1.3% 0% 1.3%;
-        height: 100%;
+        padding: 0% 15%;
+        height: 65%;
     }
     .cards-container{
         padding: 1% 5%;
@@ -252,7 +264,6 @@ section{
         justify-content: space-between;
         height: 100px;
         margin-bottom: 5%;
-        font-size: 30px;
         color: #fff;
     }
     .single-card-container{
@@ -260,23 +271,29 @@ section{
     }
     .new-cni-request{
         height: 80px;
+        padding: 6%;
+        margin-right: 10px;
     }
     .double-card-container{
         width: 66%;
     }
+    .new-cj-request{
+        margin-right: 20px;
+    }
     .new-cj-request,.new-passport-request{
         height: 80px;
-        font-size: 30px;
+        font-size: 20px;
+        padding: 3%;
     }
     .board-container{
-        height: 82%;
+        height: 68vh;
         padding: 1%;
     }
     .board-title{
         font-size: 35px;
     }
     .board-chart{
-        height: 96.6%;
+        height: 92%;
     }
     .board-chart div div{
         height: 50px;

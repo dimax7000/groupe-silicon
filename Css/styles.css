@@ -14,6 +14,7 @@ padding: 0px;
 
 }
 .idcard,.cjcard,.cjcard{
+    
     width: 30%;
 }
 .card1_description,.card2_description,.card3_description{
@@ -163,7 +164,7 @@ transition-delay: .3s;
 .telinfocni,.telinfopass,.telinfocj{
     margin-top: 20px;
     width: 33.33%;
-    
+    border-left: 1px solid black;
 }
 
 .sliders{
@@ -494,8 +495,8 @@ menu li a{
 }
 
 .idcard i,.cjcard i,.passcard i{
-    font-size: 90px;
-    margin-left: 20px;
+    font-size: 50px;
+    margin-left: 10px;
 }
 .idcard,.cjcard,.passcard{
     width: 30%;
@@ -571,6 +572,7 @@ footer{
     align-items: center;
     height: 60vh;
     box-shadow: 1px 5px 15px;
+    margin-bottom: 50px;
 }
 i{
     color: teal;
@@ -762,6 +764,10 @@ i{
         justify-content: center;
         align-items: center;
     }
+    .idcard i,.cjcard i,.passcard i{
+        font-size: 90px;
+        margin-left: 10px;
+    }
     .telinfocni ,
     .telinfopass ,
     .telinfocj{
@@ -829,7 +835,7 @@ i{
         position: absolute;
         height: 370px;
         width: 100%;
-        max-width: 850px;
+        max-width: 70%;
         margin: auto;
         background: white;
         border-radius: 20px;
@@ -878,7 +884,7 @@ i{
             align-items: center;
             padding: 0 25px;
             height: 360px;
-            width: 89%;
+            width: 70%;
         }
         .inner-part .img{
             height: 260px;
@@ -1081,6 +1087,9 @@ i{
      .item{
              display: block;
              width: auto;
+     }
+     .text{
+         width: 100%;
      }
    .toggle{
 

@@ -1,6 +1,10 @@
 @font-face{
-    font-family: "Poppins" ;
-    src: url("css/fonts/Poppins");
+    font-family: 'Poppins' ;
+    src: url("../Css/fonts/Montserrat/Poppins/Poppins-Black.ttf");
+}
+@font-face {
+    font-family: ;
+    src: url();
 }
 
 *{
@@ -143,6 +147,8 @@ ul{
 .titre1{
     display: table-cell;
     vertical-align: middle;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
 }
 .index-banner h1{
     font-size: 28px;

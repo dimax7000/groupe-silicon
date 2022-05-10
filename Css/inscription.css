@@ -41,7 +41,7 @@ input{
     border-radius:30px;
     text-align:center;
     color:black;
-    border:2px solid#00be5f;
+    border:2px solid #00be5f;
 }
 p{
     font-size:1.2em;
@@ -49,7 +49,9 @@ p{
 }
 body{
     margin-top:50%; 
-    background-image:url('../images/yellowstone-national-park-1581879_1920.jpg');   
+    background-image:url('../images/2lion.jpeg');   
+    background-size: cover;
+    background-repeat: no-repeat;
  }
     
 
@@ -89,7 +91,7 @@ body{
    } 
    body{
     margin-top:15%;
-   background-image:url('../images/yellowstone-national-park-1581879_1920.jpg');   
+   background-image:url('../images/2lion.jpeg');   
 }
 
 }
@@ -204,7 +206,9 @@ body{
 
     body{
         margin-top:50px;
-       background-image:url('../images/yellowstone-national-park-1581879_1920.jpg');   
+       background-image:url('../images/2lion.jpeg');   
+       background-size:cover ;
+       background-position: center;
     }
     
 }

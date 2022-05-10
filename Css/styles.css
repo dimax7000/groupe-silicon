@@ -13,17 +13,69 @@ margin: 0px;
 padding: 0px;
 
 }
+.envoi  button{
+    margin-top: 10px;
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #006d6d;
+    color: #fff;  
+}
+.envoi  button:hover{
+   background-color: transparent;
+   color: black;
+}
+.faireunedemande button{
+    display: none;
+}
 .logo img{
  width: 150px;
  height: 30px;
 
 }
+
+
+
 .logo_image img{
     width: 100%;
 }
 .logo_block {
     display: flex;
     align-items: center;
+}
+.formulaire_contact .container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    padding: 10px 50px;
+    width: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    
+}
+}
+
+.message{
+    width: 100%;
+}
+.mail{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formulaire_contact .container form textarea,
+.formulaire_contact .container form input{
+    width: 100%;
+    
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e4e4ec;
+    transition: 0.2s;
+}
+.formulaire_contact .container form textarea{
+    resize: none;
 }
 
 .logo_image {
@@ -60,6 +112,7 @@ padding: 0px;
     align-items: center;
 
 }
+
 .formulaire_contact .container form textarea,
     .formulaire_contact .container form input{
         width: 100%;
@@ -125,11 +178,11 @@ ul{
 
 .index-banner h2{
     font-size: 40px;
-    color: teal;
+    color:white;
     text-align: center;
     font-weight: 900;
     line-height: 70px;
-    text-shadow: 2px 2px 8px rgb(15, 115, 37);
+   
     
 }
 .formulaire_contact .container{
@@ -149,15 +202,16 @@ ul{
     vertical-align: middle;
     font-family: Poppins,sans-serif;
     font-size: 20px;
+    background-color: rgba(10, 10, 10, 0.617);
 }
 .index-banner h1{
     font-size: 28px;
-    color: black;
+    color: white;
     line-height: 40px;
     text-align: center;
     font-weight: 100;
-    font-style: italic;
-    text-shadow: 2px 2px 8px rgb(15, 115, 37);
+    
+    
 }
 
     
@@ -676,10 +730,14 @@ i{
     .telinfocni ,
     .telinfopass ,
     .telinfocj{
-        margin-left: 10%;
+        margin-left: 20%;
         margin-top:3% ;
     }
-
+    .telinfocni a span,
+    .telinfopass a span,
+    .telinfocj a span{
+        
+    }
 
     .telinfocni a,
     .telinfopass a,
@@ -693,6 +751,7 @@ i{
     .telinfocj i{
         font-size: 30px;
         color: #cf220e;
+        padding-right: 20px;
     }
     .card-video{
         padding: 2.5rem;
@@ -750,6 +809,7 @@ i{
         border-radius: .8rem;
     
     }
+   
     .card1,.card2,.card3{
         display: flex;
         justify-content: center;
@@ -812,6 +872,9 @@ i{
 display: flex;
 
    }
+   .telinfocni span {
+       width: 100px;
+   }
 .menu li{
     
    padding: 15px 10px;
@@ -821,6 +884,7 @@ display: flex;
     margin-left: 100px;
     
 }
+
 button .user{
  padding-right: 0;
 

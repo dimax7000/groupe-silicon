@@ -9,7 +9,10 @@
     max-width: 700px; 
 }
 body{
-    background-image:url('../images/yellowstone-national-park-1581879_1920.jpg'); 
+    background-image:url('../images/payementbackground.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .container-logo{
     display: inline-flex;

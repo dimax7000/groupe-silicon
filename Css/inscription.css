@@ -31,7 +31,7 @@
 }
 label{
     margin-top:40px; 
-    font-size:20px;
+    font-size:17px;
     text-align: center;
     color:#00008B
     
@@ -74,7 +74,7 @@ body{
     }
     label{
         margin-top:40px; 
-        font-size:20px;
+        font-size:15px;
         text-align: center;
     }
     input{
@@ -121,7 +121,7 @@ body{
     .Name label{
         /* margin-left:2px; */
         margin-top:40px; 
-        font-size:20px;
+        font-size:17px;
         text-align: center;
     }
     .prenom input{
@@ -133,13 +133,13 @@ body{
     .Prenom label{
         /* margin-left:200px; */
         margin-top:40px; 
-        font-size:20px;
+        font-size:17px;
         text-align:center;
         margin-right:50px;
     }
     label{
         margin-top:40px; 
-        font-size:20px;
+        font-size:17px;
         text-align: center;
         text-align:none;
     }
@@ -174,7 +174,7 @@ body{
     .Motpass label{
         /* margin-left:2px; */
         margin-top:40px; 
-        font-size:20px;
+        font-size:17px;
         text-align: center;
     }
     .confirmation input{
@@ -185,13 +185,13 @@ body{
     }
     .Confirmation label{
         margin-top:40px; 
-        font-size:20px;
+        font-size:17px;
         text-align:center;
         /* margin-right:5px; */
     }
     label{
         margin-top:40px; 
-        font-size:20px;
+        font-size:17px;
         text-align: center;
         text-align:none;
     }

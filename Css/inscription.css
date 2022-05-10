@@ -90,7 +90,7 @@ body{
      
    } 
    body{
-    margin-top:15%;
+    
    background-image:url('../images/2lion.jpeg');   
 }
 
@@ -205,10 +205,14 @@ body{
     }
 
     body{
-        margin-top:50px;
+     
        background-image:url('../images/2lion.jpeg');   
        background-size:cover ;
        background-position: center;
     }
+   .connexion-form {
+        
+            margin-top: -500px;
+    
     
 }

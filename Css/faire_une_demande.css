@@ -28,7 +28,7 @@ a {
     width: 35px;
 }
 .logo_name{
-    color: rgb(0, 190, 95);
+    color: #008080;
     font-weight: bold;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +47,7 @@ img {
     width: 38px;
 }
 .user_name{
-    color: #00be5f;
+    color: #008080;
     font-weight: bold;
 }
 
@@ -85,14 +85,14 @@ h5 {
 }
 .docs_blocks h4{
     width: 100%;
-    background-color: #00be5f;
+    background-color: #008080;
     padding: 10px;
     color: white;
 }
 .doc_block {
     width: 75%;
     /* border: 2px solid #00be5f; */
-    padding:0px;
+    padding:10px;
     max-width: 350px;
     margin: 20px auto;
     box-shadow: 0px 0px 3px 0px rgba(74, 80, 74, 0.37);
@@ -103,18 +103,24 @@ h5 {
     display: flex;
     align-items: center;
     padding: 5px;
-    margin-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
 
 }
 .side_bar_blocks:hover {
+   
+    display: flex;
     align-items: center;
     padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
     background-color: orange;
-    margin-bottom: 25px;
 
 }
 .side_bar_text{
-    color: #00be5f;
+    color: #008080;
     font-weight: bold;
     display: inline-block;
     margin: 0px;
@@ -147,7 +153,7 @@ h5 {
 }
 .doc_title{
     padding-top: 1px;
-    color: #00be5f;
+    color: #008080;
     font-weight: bold;
 }
 .doc_row{
@@ -166,19 +172,20 @@ h5 {
 }
 button{
     padding: 10px;
-    border: 1px solid #00be5f;
+    border: 1px solid #008080;
     border-radius: 7px;
     color: white;
-    background-color: #00be5f;
+    background-color: #008080;
     font-weight: bold;
     margin: 10px;
 }
 button:hover{
     padding: 10px;
-    border: 1px solid #00be5f;
+    border: 0px solid #008080;
     border-radius: 7px;
     color: white;
-    background-color: #509b75;
+    background-color: orange;
+    margin: 10px;
     font-weight: bold;
 }
 footer {
@@ -204,7 +211,7 @@ footer {
 }
 .side_bar{
     width: 100%;
-        height: 95vh;
+        height: 300vh;
         display: block;
         position: absolute;
         top: 0px;
@@ -214,15 +221,14 @@ footer {
         visibility: hidden;
         transition: .3s;
 
-        padding: 25px;
+        padding-top: 25px;
         background-color: rgb(245, 245, 245);
         box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.226);
         
 }
 .side_bar_text{
-    color: #00be5f;
+    color: #008080;
     font-weight: bold;
-    margin-bottom: 15px;
 
 }
 .side_bar_desktop{
@@ -231,6 +237,7 @@ footer {
     display: none;
     padding: 25px;
     background-color: rgba(169, 169, 169, 0.856);
+    height: 300vh;
     
 }
 #menu_burger:checked ~ .side_bar{
@@ -241,11 +248,51 @@ footer {
     color: #0052be;
     padding: 5px;
     margin-top: -18px;
-    margin-left: -10px;
+    margin-left: 25px;
     margin-bottom: 20px;
     font-size: 20px;
 }
 
+button{
+    padding: 10px;
+    border: 1px solid #008080;
+    border-radius: 7px;
+    color: white;
+    background-color: #008080;
+    font-weight: bold;
+    margin: 10px;
+}
+button:hover{
+    padding: 10px;
+    border: 1px solid #008080;
+    border-radius: 7px;
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+}
+.buton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+i{
+    font-size: 20px;
+}
+button:hover{
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #f5f5f5;
+    padding:10px 25px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+    margin: auto;
+    background-color: orange;
+    display: block;
+}
+button a{
+    color: white;
+}
 
 
 /* RESPONSIVE TABLETTE */
@@ -336,14 +383,34 @@ footer {
     
     }
 
+   
     .side_bar_blocks {
         display: flex;
         align-items: center;
         padding: 5px;
-        margin-bottom: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
     
     }
+    .side_bar_blocks:hover {
+       
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        background-color: orange;
     
+    }
+    .side_bar_text{
+        color: #008080;
+        font-weight: bold;
+        display: inline-block;
+        margin: 0px;
+    
+    }
     .side_bar_icon {
         display: inline-block;
         margin-right: 10px;
@@ -372,7 +439,7 @@ footer {
     
     }
     .doc_title{
-        color: #00be5f;
+        color: #008080;
         font-weight: bold;
         font-size: 1.5rem;
     }
@@ -392,12 +459,21 @@ footer {
     }
     button{
         padding: 10px;
-        border: 1px solid #00be5f;
+        border: 1px solid #008080;
         border-radius: 7px;
         color: white;
-        background-color: #00be5f;
+        background-color: #008080;
         font-weight: bold;
         margin: 10px;
+    }
+    button:hover{
+        padding: 10px;
+        border: 0px solid #008080;
+        border-radius: 7px;
+        color: white;
+        background-color: orange;
+        margin: 10px;
+        font-weight: bold;
     }
     /* nouveau code */
     
@@ -410,7 +486,7 @@ footer {
     }
     .side_bar{
             max-width: 300px;
-            height: 95vh;    */
+            height: 280vh; 
             display: block;
             position: absolute;
             top: 0px;
@@ -420,14 +496,14 @@ footer {
             visibility: hidden;
             transition: .3s;
     
-            padding: 25px;
+            padding-top: 25px;
             background-color: rgb(245, 245, 245);
             box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.226);
             
     }
     
     .side_bar_desktop{
-        width: 20%;
+        width: 25%;
         max-width: 300px;
         display: none;
         padding: 25px;
@@ -443,11 +519,14 @@ footer {
         color: #0052be;
         padding: 5px;
         margin-top: -18px;
-        margin-left: -10px;
+        margin-left: 25px;
         margin-bottom: 20px;
         font-size: 20px;
     }
-    
+    .side_bar_text {
+        display: inline-block;
+        margin: 0px;
+    }
 }
 
 /* RESPONSIVE PART DESKTOP */
@@ -463,11 +542,12 @@ footer {
         text-decoration: none;
     }
     .side_bar_desktop{
-        width: 20%;
-        height: 95vh;
+        width: 25%;
         max-width: 300px;
+        height: 200vh;
         display: inline-block;
-        padding: 25px;
+        padding: 0px;
+        padding-top: 35px;
         background-color: rgb(245, 245, 245);
         box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.226);
         
@@ -505,7 +585,7 @@ footer {
     }
     
     main {
-        margin: 0px 5px;
+        margin: 0px;
     }
     .main_container{
         
@@ -549,7 +629,7 @@ footer {
     .docs_blocks{
         margin: 50px auto;
         /* border: 2px solid black; */
-        width: 75%;
+        width: 80%;
     }
     .docs_blocks h4{
         font-size: 1.5rem;
@@ -566,7 +646,25 @@ footer {
         margin-bottom: 10px;
     
     }
+    .side_bar_blocks {
+        display: flex;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
     
+    }
+    .side_bar_blocks:hover {
+       
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        background-color: orange;
+    
+    }
     .dates {
         display: flex;
         font-size: 12px;
@@ -586,13 +684,7 @@ footer {
         color: rgba(0, 0, 0, 0.644);
     }
     
-    .side_bar_blocks {
-        display: flex;
-        align-items: center;
-        padding: 5px;
-        margin-bottom: 5px;
-    
-    }
+
     
     .side_bar_icon {
         display: inline-block;

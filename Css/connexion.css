@@ -1,11 +1,12 @@
 .container-connexion-form{
-    width:100%;
+    width:95%;
     margin: auto;
     display: flex;
     justify-content:center;
     border-radius:25px;
     height:400px;
     background-color:rgba(245, 236, 236, 0.404);
+    margin-top:50px;
     
     max-width:500px;
     box-shadow:1px 1px 5px 2px white;
@@ -17,25 +18,27 @@
     margin-top:30px;
     font-size:25px;
     margin-bottom:40px;
+    color: #008080;
+
 }
 .Email label{
     margin-top:40px; 
     font-size:20px;
     text-align: center;
-    color:#00008B;
+    color: #008080;
 }
 .mot{
     margin-top:30px; 
     font-size:20px;
-    color:#00008B
+    color: #008080;
 }
 
 .email input{
     height:30px;
     border-radius:30px;
     text-align: center;
-    border: #00be5f;
-    border: 2px solid#00be5f;
+    border:  #008080;
+    border: 2px solid  #008080;
 }  
 .btn button{
     margin-top:25px;
@@ -45,9 +48,7 @@
     text-align: center;
     font-size:15px;
     color:white;
-    border: 2px solid#00be5f;
-    
-    
+    border: 2px solid  #008080; 
 }
 button{
     border: 1px #cccccc;
@@ -59,15 +60,23 @@ button{
     cursor: pointer;
     text-decoration-color:black;
     font-size:15px;
-    background-color:#00be5f;
+    background-color: #008080;
+}
+.btn :hover{
+    background-color: orange;
+    border: 0px;
+}
+button a{
+    color:white;
+    text-decoration: none; 
 }
 p{
     font-size:1.2em;
 }
-  body{
-    margin-top:50%;
-    background-image:url('../images/yellowstone-national-park-1581879_1920.jpg');   
- }
+body{
+    background-image:url('../images/');
+}
+ 
 
 @media only screen and (min-width:460px){
     .container-connexion-form{
@@ -77,6 +86,8 @@ p{
         justify-content:center;
         border-radius:25px;
         height:450px;
+        margin-top:10%;
+        box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.699);
     }
     .container-child-formulaire{
         text-align: center;
@@ -90,6 +101,10 @@ p{
         margin-top:40px; 
         font-size:25px;
         text-align: center;
+    }
+    .btn :hover{
+        background-color: orange;
+        border: 0px;
     }
     .mot{
         margin-top:30px; 
@@ -108,15 +123,13 @@ p{
         border-radius:30px;
         text-align: center;
         font-size:20px;
-        border: 2px solid#00be5f;
-        background-color: #00be5f;
+        border: 2px solid  #008080;
+        background-color:  #008080;
     }
     p{
         font-size:1.4em;
     }
-    body{
-        margin-top:50%;
-    }
+   
 }
 
 
@@ -162,6 +175,10 @@ p{
         border-radius:0px;
         text-align: center;
         font-size:20px;
+    }
+    .btn :hover{
+        background-color: orange;
+        border: 0px;
     }
     p{
         font-size:1.4em;

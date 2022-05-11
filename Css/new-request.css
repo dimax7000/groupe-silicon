@@ -18,11 +18,11 @@ header{
     font-size: 25px;
     color: #008080;
 }
-.logo-image-container{
-    width: 50%;
+.logo-image-container {
+    width: 40px;
 }
 .logo-container img{
-    width: 100%;
+    width: 40px;
 }
 .account-notification-container{
     padding-top: 0.25%;
@@ -86,6 +86,10 @@ aside{
 .exit{
     text-align: left;
     padding: 5%;
+    width: 0%;
+}
+.exit a:hover{
+    background-color: #f5f6fa;
 }
 .fa-xmark{
     font-size: 20px;
@@ -112,8 +116,10 @@ aside{
     height: 100%;
 }
 #sidebar-menu-container a:hover{
-    background-color: #fff;
-}#sidebar-menu-container .fa-solid {
+    color: #fff;
+    background-color: orange;
+}
+#sidebar-menu-container .fa-solid {
     font-size: 20px;
 }
 #sidebar-menu-container:target{
@@ -198,9 +204,48 @@ section{
 .state-container{
     border-right: 2px solid #008080;
 }
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:601px) {
+    main{
+        background-color: #fff;
+        display: flex;
+    }
+    #sidebar-menu-container{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        background-color: #f5f6fa;
+    }
+    #sidebar-menu-container a:hover{
+        background-color: orange;
+    }
+    #sidebar-menu-container:target{
+        display: block;
+        background-color: #f5f6fa;
+        width: 325px;
+        height: 100%;
+    }
+    section{
+        width: 100%;
+        height: 65%;
+    }
+}
+@media only screen and (min-width:992px) {
+    .header-left{
+        width: 11%;
+    }
+    .logo-container{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        color: #008080;
+    }
     .logo-image-container{
-        width: 50%;
+        width: 100%;
+    }
+    .logo-container img{
+        width: 100%;
     }
     .account-notification-container{
         width: 10%;

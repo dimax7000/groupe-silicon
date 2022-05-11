@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(../css/font/poppins-Black.ttf);
+}
+@font-face {
+    font-family:'Montserrat';
+    src: url(../css/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+.titre{
+    font-family:'poppins';
+}
+.text{
+    font-family:'Montserrat';  
+}

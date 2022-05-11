@@ -28,6 +28,7 @@ section{
     height: 100%;
     text-align: center;
     width: 94.5%;
+    margin-bottom: 10px;
 }
 select{
     text-align: center;

@@ -18,11 +18,11 @@ header{
     font-size: 25px;
     color: #008080;
 }
-.logo-image-container{
-    width: 50%;
+.logo-image-container {
+    width: 40px;
 }
 .logo-container img{
-    width: 100%;
+    width: 40px;
 }
 .account-notification-container{
     padding-top: 0.25%;
@@ -73,7 +73,7 @@ aside{
 }
 .burger-menu{
     padding: 1% 2%;
-    font-size: 25px;
+    font-size: 20px;
 }
 #sidebar-menu-container{
     display: none;
@@ -84,11 +84,15 @@ aside{
     background-color: #f5f6fa;
 }
 .exit{
-    text-align: right;
+    text-align: left;
     padding: 5%;
+    width: 0%;
+}
+.exit a:hover{
+    background-color: #f5f6fa;
 }
 .fa-xmark{
-    font-size: larger;
+    font-size: 20px;
 }
 .new-requests,
 .personnes-enregistrees,
@@ -101,7 +105,7 @@ aside{
     margin-left: 5px;
 }
 #sidebar-menu-container span{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 #sidebar-menu-container a{
@@ -112,10 +116,11 @@ aside{
     height: 100%;
 }
 #sidebar-menu-container a:hover{
-    background-color: #fff;
+    color: #fff;
+    background-color: orange;
 }
-#sidebar-menu-container .fa-solid{
-    font-size: 40px;
+#sidebar-menu-container .fa-solid {
+    font-size: 20px;
 }
 #sidebar-menu-container:target{
     display: block;
@@ -135,9 +140,10 @@ section{
     background-color: #e85347;
     border: 2px solid #008080;
     margin-bottom: 1%;
-    font-size: 20px;
+    font-size: 12px;
     border-radius: 10px;
     height: 50px;
+    color: white;
 }
 .double-card-container{
     display: flex;
@@ -155,8 +161,9 @@ section{
     width: 48%;
     border-radius: 8px;
     height: 50px;
-    font-size: 15px;
+    font-size: 12px;
     border: 2px solid #008080;
+    color: white;
 }
 .board-container{
     border: 2px solid #008080;
@@ -165,11 +172,11 @@ section{
     height: 100%;
 }
 .board-title{
-    font-size: 23px;
+    font-size: 19px;
     font-weight: bolder;
 }
 .title{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     border-bottom: 2px solid #008080;
 }
@@ -197,9 +204,48 @@ section{
 .state-container{
     border-right: 2px solid #008080;
 }
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:601px) {
+    main{
+        background-color: #fff;
+        display: flex;
+    }
+    #sidebar-menu-container{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        background-color: #f5f6fa;
+    }
+    #sidebar-menu-container a:hover{
+        background-color: orange;
+    }
+    #sidebar-menu-container:target{
+        display: block;
+        background-color: #f5f6fa;
+        width: 325px;
+        height: 100%;
+    }
+    section{
+        width: 100%;
+        height: 65%;
+    }
+}
+@media only screen and (min-width:992px) {
+    .header-left{
+        width: 11%;
+    }
+    .logo-container{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        color: #008080;
+    }
     .logo-image-container{
-        width: 50%;
+        width: 100%;
+    }
+    .logo-container img{
+        width: 100%;
     }
     .account-notification-container{
         width: 10%;
@@ -253,6 +299,9 @@ section{
     #sidebar-menu-container span{
         font-size: 18px;
     }
+    #sidebar-menu-container .fa-solid{
+        font-size: 40px;
+    }
     section{
         width: 82%;
         padding: 0% 15%;
@@ -273,6 +322,7 @@ section{
         height: 80px;
         padding: 6%;
         margin-right: 10px;
+        font-size: 20px;
     }
     .double-card-container{
         width: 66%;

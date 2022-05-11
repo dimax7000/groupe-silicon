@@ -32,9 +32,6 @@ padding: 0px;
    background-color: transparent;
    color: black;
 }
-.faireunedemande button{
-    display: none;
-}
 
 .logo img{
  width: 150px;
@@ -664,13 +661,13 @@ i{
         padding: 5px;
         border-radius: 10px;
         background-color:#006d6d ;
-        color: white;
+        color:black;
         border: none;
     }
     .faireunedemande button:hover{
-        background-color: transparent;
+        background-color: white;
         border: 1px solid black;
-        color: black;
+        color: blueviolet;
     }
     .envoi  button{
         margin-top: 10px;

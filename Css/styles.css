@@ -76,6 +76,9 @@ padding: 0px;
     
     
 }
+.topbar{
+    display: flex;
+}
 #imgTap:checked ~ .inner-part{
     padding: 0;
     transition: .1s ease-in;

@@ -1,9 +1,5 @@
-html{
-    height: 100%;
-}
 body{
     margin: 0px;
-    height: 94.5vh;
 }
 header{
     padding: 0.5% 0% 0% 0.5%;
@@ -23,11 +19,12 @@ header{
     font-size: 25px;
     color: #008080;
 }
-.logo-image-container{
-    width: 50%;
+.logo-image-container {
+    width: 40px;
+    padding-top: 5px;
 }
 .logo-container img{
-    width: 100%;
+    width: 40px;
 }
 .account-notification-container{
     width: 22%;
@@ -66,15 +63,12 @@ section a{
     height: 100%;
     padding-top: 5%;
 }
-main{
-    height: 100%;
-}
 aside{
     position: relative;
 }
 .burger-menu{
     padding: 1% 2%;
-    font-size: 25px;
+    font-size: 20px;
 }
 #sidebar-menu-container{
     display: none;
@@ -85,11 +79,12 @@ aside{
     background-color: #f5f6fa;
 }
 .exit{
-    text-align: right;
+    text-align: left;
     padding: 5%;
+    width: 0%;
 }
 .fa-xmark{
-    font-size: larger;
+    font-size: 20px;
 }
 .new-requests,
 .personnes-enregistrees,
@@ -103,7 +98,7 @@ aside{
     margin-left: 5px;
 }
 #sidebar-menu-container span{
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 #sidebar-menu-container a{
@@ -114,10 +109,11 @@ aside{
     height: 100%;
 }
 #sidebar-menu-container a:hover{
-    background-color: #fff;
+    color: #fff;
+    background-color: orange;
 }
 #sidebar-menu-container .fa-solid{
-    font-size: 40px;
+    font-size: 22px;
 }
 #sidebar-menu-container:target{
     display: block;
@@ -139,6 +135,9 @@ section{
     margin-bottom: 1%;
     border-radius: 10px;
     height: 50px;
+    font-size: 15px;
+    border: 2px solid #008080;
+    color: white;
 }
 .double-card-container{
     display: flex;
@@ -150,11 +149,12 @@ section{
 }
 .hommes-inscrits{
     background-color: #1ee0ac;
-    border: 2px solid #008080;
 }
 .femmes-inscrites,.hommes-inscrits{
     padding: 10px 5px;
+    font-size: 12px;
     border: 2px solid #008080;
+    color: white;
     width: 48%;
     border-radius: 8px;
     height: 50px;
@@ -166,16 +166,16 @@ section{
     height: 100%;
 }
 .board-title{
-    font-size: 23px;
+    font-size: 19px;
     font-weight: bolder;
 }
 .title{
-    font-size: 14px;
-    font-weight: bolder;
+    font-size: 11.55px;
+    font-weight: bold;
     border-bottom: 2px solid #008080;
 }
 .board-chart{
-    height: 93.7%;
+    height: 93.5%;
     justify-content: center;
     padding: 10px 10px 0px 10px;
     display: flex;
@@ -198,9 +198,44 @@ section{
 .registration-date{
     border-right: 2px solid #008080;
 }
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:601px) {
+    main{
+        background-color: #fff;
+        display: flex;
+    }
+    #sidebar-menu-container{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        background-color: #f5f6fa;
+    }
+    #sidebar-menu-container a:hover{
+        background-color: orange;
+    }
+    #sidebar-menu-container:target{
+        display: block;
+        background-color: #f5f6fa;
+        width: 325px;
+        height: 100%;
+    }
+    section{
+        width: 100%;
+        height: 65%;
+    }
+}
+@media only screen and (min-width:992px) {
+    html{
+        height: 100%;
+    }
+    body{
+        height: 94.5vh;
+    }
     .logo-image-container{
         width: 50%;
+    }
+    .logo-container img{
+        width: 100%;
     }
     .account-notification-container{
         width: 10%;
@@ -251,6 +286,9 @@ section{
     #sidebar-menu-container span{
         font-size: 18px;
     }
+    #sidebar-menu-container .fa-solid{
+        font-size: 40px;
+    }
     section{
         width: 82%;
         padding: 0% 15%;
@@ -272,6 +310,7 @@ section{
         height: 80px;
         margin-right: 10px;
         border: 2px solid #008080;
+        font-size: 22px;
     }
     .double-card-container{
         width: 66%;
@@ -280,6 +319,7 @@ section{
         height: 80px;
         margin-right: 20px;
         border: 2px solid #008080;
+        font-size: 22px;
     }
     .board-container{
         height: 100%;

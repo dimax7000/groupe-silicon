@@ -49,8 +49,10 @@ p{
     color:black;
 }
 body{
-    margin-top:50%; 
-    background-image: ;
+     
+    background-image: url("../images/momumentiçndependance.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
    
  }
     
@@ -204,7 +206,7 @@ body{
     }
 
     body{
-        margin-top:50px;
+       
     }
     
 }

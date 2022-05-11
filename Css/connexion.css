@@ -74,7 +74,10 @@ p{
     font-size:1.2em;
 }
 body{
-    background-image:url('../images/');
+    background-image:url('../images/lion2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center-left;
 }
  
 

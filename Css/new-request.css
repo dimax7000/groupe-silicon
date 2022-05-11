@@ -73,7 +73,7 @@ aside{
 }
 .burger-menu{
     padding: 1% 2%;
-    font-size: 25px;
+    font-size: 20px;
 }
 #sidebar-menu-container{
     display: none;
@@ -84,11 +84,11 @@ aside{
     background-color: #f5f6fa;
 }
 .exit{
-    text-align: right;
+    text-align: left;
     padding: 5%;
 }
 .fa-xmark{
-    font-size: larger;
+    font-size: 20px;
 }
 .new-requests,
 .personnes-enregistrees,
@@ -101,7 +101,7 @@ aside{
     margin-left: 5px;
 }
 #sidebar-menu-container span{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 #sidebar-menu-container a{
@@ -113,9 +113,8 @@ aside{
 }
 #sidebar-menu-container a:hover{
     background-color: #fff;
-}
-#sidebar-menu-container .fa-solid{
-    font-size: 40px;
+}#sidebar-menu-container .fa-solid {
+    font-size: 20px;
 }
 #sidebar-menu-container:target{
     display: block;
@@ -135,9 +134,10 @@ section{
     background-color: #e85347;
     border: 2px solid #008080;
     margin-bottom: 1%;
-    font-size: 20px;
+    font-size: 12px;
     border-radius: 10px;
     height: 50px;
+    color: white;
 }
 .double-card-container{
     display: flex;
@@ -155,8 +155,9 @@ section{
     width: 48%;
     border-radius: 8px;
     height: 50px;
-    font-size: 15px;
+    font-size: 12px;
     border: 2px solid #008080;
+    color: white;
 }
 .board-container{
     border: 2px solid #008080;
@@ -165,11 +166,11 @@ section{
     height: 100%;
 }
 .board-title{
-    font-size: 23px;
+    font-size: 19px;
     font-weight: bolder;
 }
 .title{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     border-bottom: 2px solid #008080;
 }
@@ -253,6 +254,9 @@ section{
     #sidebar-menu-container span{
         font-size: 18px;
     }
+    #sidebar-menu-container .fa-solid{
+        font-size: 40px;
+    }
     section{
         width: 82%;
         padding: 0% 15%;
@@ -273,6 +277,7 @@ section{
         height: 80px;
         padding: 6%;
         margin-right: 10px;
+        font-size: 20px;
     }
     .double-card-container{
         width: 66%;

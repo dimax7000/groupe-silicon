@@ -362,7 +362,12 @@ h5 {
     font-size: 1.3rem;
 
     }
-    
+    i{
+        color: #008080;
+    }
+    .side_bar_blocks i{
+        font-size: 25px;
+    }
     .logo_image {
         width: 35px;
     }

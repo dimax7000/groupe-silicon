@@ -2,10 +2,6 @@
     font-family: 'Poppins' ;
     src: url("../Css/fonts/Poppins/Poppins-Black.ttf");
 }
-@font-face {
-    font-family: ;
-    src: url();
-}
 
 *{
 box-sizing: border-box;
@@ -483,6 +479,7 @@ menu li a{
     width: 18px;
       
 }
+
 .bars:before,.bars::after{
 
   background: #999;
@@ -632,6 +629,11 @@ i{
 
          justify-content: center;
     }
+    .menu ul{
+        margin-left: 0px;
+        
+    }
+    
 
     .user{
              padding: 7px 12px;
@@ -842,7 +844,7 @@ i{
         background: white;
         border-radius: 20px;
     }
-    .blog-post_img img{
+    .blog-post_img video{
         width: 110%;
         height: 100%;
         object-fit: cover;
